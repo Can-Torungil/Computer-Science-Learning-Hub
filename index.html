@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Computer Science Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-laptop-code"></i>
+                <span>IB CS Learning Hub</span>
+            </div>
+            <div class="nav-menu">
+                <button class="nav-btn active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </button>
+                <button class="nav-btn" data-section="flashcards">
+                    <i class="fas fa-layer-group"></i>
+                    <span>Flashcards</span>
+                </button>
+                <button class="nav-btn" data-section="tests">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Tests</span>
+                </button>
+                <button class="nav-btn" data-section="presentations">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span>Presentations</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="content-section active">
+                <div class="hero">
+                    <h1>Welcome to IB Computer Science Learning Hub</h1>
+                    <p class="attribution">made by Can Torungil and Bora Harun Ağsaran</p>
+                    <p>Master IB Computer Science with interactive flashcards, tests, matching games, and detailed presentations.</p>
+                    <div class="feature-grid">
+                        <div class="feature-card" data-section="flashcards">
+                            <i class="fas fa-layer-group"></i>
+                            <h3>🃏 Flashcards</h3>
+                            <p>Study key concepts with interactive flashcards</p>
+                        </div>
+                        <div class="feature-card" data-section="tests">
+                            <i class="fas fa-question-circle"></i>
+                            <h3>📝 Tests & Quizzes</h3>
+                            <p>Test your knowledge with comprehensive quizzes</p>
+                        </div>
+                        <div class="feature-card" data-section="presentations">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h3>📊 Presentations</h3>
+                            <p>Learn with detailed presentations and slides</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Flashcards Section -->
+            <section id="flashcards" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-layer-group"></i> Flashcards</h2>
+                    <div class="controls">
+                        <select id="flashcard-topic">
+                            <option value="all">All Topics</option>
+                            <option value="system-fundamentals">System Fundamentals</option>
+                            <option value="computer-organization">Computer Organization</option>
+                            <option value="networks">Networks</option>
+                            <option value="computational-thinking">Computational Thinking</option>
+                            <option value="abstract-data-structures">Abstract Data Structures</option>
+                            <option value="resource-management">Resource Management</option>
+                            <option value="control">Control</option>
+                            <option value="object-oriented-programming">Object-Oriented Programming</option>
+                        </select>
+                        <button id="shuffle-cards" class="btn btn-secondary">
+                            <i class="fas fa-shuffle"></i> Shuffle
+                        </button>
+                    </div>
+                </div>
+                <div class="flashcard-container">
+                    <div class="flashcard" id="flashcard">
+                        <div class="card-front">
+                            <h3 id="card-question">Click "Start" to begin studying</h3>
+                        </div>
+                        <div class="card-back">
+                            <p id="card-answer">The answer will appear here</p>
+                        </div>
+                    </div>
+                    <div class="flashcard-controls">
+                        <button id="prev-card" class="btn btn-secondary" disabled>
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        <button id="flip-card" class="btn btn-primary">
+                            <i class="fas fa-sync-alt"></i> Flip Card
+                        </button>
+                        <button id="next-card" class="btn btn-secondary" disabled>
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="progress-info">
+                        <span id="card-counter">0 / 0</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tests Section -->
+            <section id="tests" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-question-circle"></i> Tests & Quizzes</h2>
+                    <div class="controls">
+                        <select id="test-topic">
+                            <option value="all">All Topics</option>
+                            <option value="system-fundamentals">System Fundamentals</option>
+                            <option value="computer-organization">Computer Organization</option>
+                            <option value="networks">Networks</option>
+                            <option value="computational-thinking">Computational Thinking</option>
+                            <option value="abstract-data-structures">Abstract Data Structures</option>
+                            <option value="resource-management">Resource Management</option>
+                            <option value="control">Control</option>
+                            <option value="object-oriented-programming">Object-Oriented Programming</option>
+                        </select>
+                        <select id="test-difficulty">
+                            <option value="all">All Levels</option>
+                            <option value="easy">Easy</option>
+                            <option value="medium">Medium</option>
+                            <option value="hard">Hard</option>
+                        </select>
+                        <button id="start-test" class="btn btn-primary">
+                            <i class="fas fa-play"></i> Start Test
+                        </button>
+                    </div>
+                </div>
+                <div class="test-container" id="test-container">
+                    <div class="test-welcome">
+                        <h3>Ready to test your knowledge?</h3>
+                        <p>Select a topic and difficulty level, then click "Start Test" to begin.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Presentations Section -->
+            <section id="presentations" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-chalkboard-teacher"></i> Presentations</h2>
+                    <div class="controls">
+                        <select id="presentation-topic">
+                            <option value="system-fundamentals">System Fundamentals</option>
+                            <option value="computer-organization">Computer Organization</option>
+                            <option value="networks">Networks</option>
+                            <option value="computational-thinking">Computational Thinking</option>
+                            <option value="abstract-data-structures">Abstract Data Structures</option>
+                            <option value="resource-management">Resource Management</option>
+                            <option value="control">Control</option>
+                            <option value="object-oriented-programming">Object-Oriented Programming</option>
+                        </select>
+                        <button id="start-presentation" class="btn btn-primary">
+                            <i class="fas fa-play"></i> Start Presentation
+                        </button>
+                    </div>
+                </div>
+                <div class="presentation-container" id="presentation-container">
+                    <div class="presentation-welcome">
+                        <h3>Interactive Presentations</h3>
+                        <p>Select a topic to view detailed presentations with slides and explanations.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

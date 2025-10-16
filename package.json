@@ -1,0 +1,17 @@
+{
+  "name": "ib-computer-science-app",
+  "version": "1.0.0",
+  "description": "A comprehensive learning app for IB Computer Science students",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000",
+    "dev": "npx live-server --port=3000"
+  },
+  "keywords": ["education", "ib", "computer-science", "learning", "quiz"],
+  "author": "IB CS Learning App",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
