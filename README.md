@@ -126,68 +126,10 @@ The app is fully responsive and works on:
 - Tablets
 - Mobile phones
 
-## File Structure
-
-```
-ib-computer-science-app/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and responsive design
-├── app.js             # Main JavaScript application logic
-├── data.js            # IB Computer Science content and data
-├── package.json       # Node.js dependencies and scripts
-└── README.md          # This documentation file
-```
-
 ## Customization
-
-### Adding New Content
-To add new flashcards, tests, or matching pairs:
-
-1. **Flashcards**: Add new entries to the `appData.flashcards` object in `data.js`
-2. **Tests**: Add new questions to the `appData.tests` object in `data.js`
-3. **Matching**: Add new pairs to the `appData.matching` object in `data.js`
-4. **Presentations**: Add new slides to the `appData.presentations` object in `data.js`
-
-### Styling
-Modify `styles.css` to customize:
-- Color scheme
-- Typography
-- Layout and spacing
-- Animations and transitions
-
-## Contributing
-
-This is an educational project designed for IB Computer Science students. Contributions are welcome:
-
-1. Fork the repository
-2. Create a feature branch
-3. Add new content or improve existing features
-4. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For questions or issues:
-- Check the browser console for any JavaScript errors
-- Ensure you're using a modern web browser
-- Verify all files are in the same directory
-
-## Future Enhancements
-
-Potential features for future versions:
-- User progress tracking and statistics
-- Custom flashcard creation
-- Export/import functionality
-- Offline mode support
-- Additional IB CS topics
-- Collaborative study features
-
----
 
 **Happy Studying!** 🎓
 
 This app is designed to make IB Computer Science learning engaging and effective. Use it regularly to reinforce your understanding of key concepts and prepare for your exams.
+
 
