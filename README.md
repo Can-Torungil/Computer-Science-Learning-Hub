@@ -49,7 +49,7 @@ A comprehensive learning application designed specifically for IB Computer Scien
 1. **Clone or download the project files**
    ```bash
    git clone <repository-url>
-   cd ib-computer-science-app
+   cd Computer-Science-Learning-Hub
    ```
 
 2. **Install dependencies (optional - for development)**
@@ -190,3 +190,4 @@ Potential features for future versions:
 **Happy Studying!** 🎓
 
 This app is designed to make IB Computer Science learning engaging and effective. Use it regularly to reinforce your understanding of key concepts and prepare for your exams.
+
