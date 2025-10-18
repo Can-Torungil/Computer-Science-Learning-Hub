@@ -4,26 +4,26 @@ A comprehensive learning application designed specifically for IB Computer Scien
 
 ## Features
 
-### 🃏 Interactive Flashcards
+###  Interactive Flashcards
 - Study key concepts with flipable flashcards
 - Filter by topic (Algorithms, Data Structures, Networks, Databases, OOP)
 - Shuffle functionality for varied study sessions
 - Progress tracking with visual indicators
 
-### 📝 Tests & Quizzes
+###  Tests & Quizzes
 - Comprehensive question bank covering all IB CS topics
 - Multiple difficulty levels (Easy, Medium, Hard)
 - Instant feedback with detailed explanations
 - Score tracking and answer review
 - Randomized question selection
 
-### 🧩 Phrase Matching Game
+###  Phrase Matching Game
 - Match terms with their definitions
 - Interactive drag-and-drop style gameplay
 - Progress tracking and statistics
 - Topic-specific matching sets
 
-### 📊 Presentation Mode
+###  Presentation Mode
 - Detailed slide-based presentations
 - Comprehensive coverage of IB CS topics
 - Interactive navigation between slides
@@ -31,12 +31,19 @@ A comprehensive learning application designed specifically for IB Computer Scien
 
 ## Topics Covered
 
-- **Algorithms**: Sorting, searching, complexity analysis
-- **Data Structures**: Arrays, linked lists, stacks, queues, trees, hash tables
-- **Networks**: TCP/IP, protocols, network topologies, security
-- **Databases**: SQL, normalization, ACID properties, relationships
-- **Object-Oriented Programming**: Encapsulation, inheritance, polymorphism, abstraction
-- **System Fundamentals**: Computer architecture, operating systems, memory management
+Topic 1 – System Fundamentals, system components and design, installation, change management,testing, user documentation and training, data loss, backups, and software deployment.
+
+Topic 2 – Computer Organization, CPU architecture and machine instruction cycle, memory types and storage, operating systems and resource management, data representation (binary, hex, text, audio, image, video), logic gates and boolean algebra.
+
+Topic 3 – Networks, LAN, WAN, and Internet standards, protocols and data transmission, data compression, network topologies and transmission media, wireless networks and network security.
+
+Topic 4 – Computational Thinking, Problem Solving, and Programming, computational thinking (abstraction, decomposition, algorithms), problem-solving techniques, pseudocode and flowcharts, programming constructs (sequence, selection, iteration), subroutines and modularity, debugging and testing, algorithm efficiency.
+
+Topic 5 – Abstract Data Structures (HL only), linked lists, stacks, queues, trees, and associated operations (traverse, add, remove, search), implementation and recursion.
+
+Topic 6 – Resource Management (HL only), system resources and limitations, operating system responsibilities, scheduling, interrupts, paging, polling, abstraction, and virtualization.
+
+Topic 7 – Control (HL only), control systems using sensors, processors, and actuators, open-loop and closed-loop feedback systems, microprocessors and microcontrollers, distributed and autonomous systems, and social and ethical implications of control technology.
 
 ## Getting Started
 
@@ -120,16 +127,12 @@ A comprehensive learning application designed specifically for IB Computer Scien
 - Safari 12+
 - Edge 79+
 
-### Responsive Design
-The app is fully responsive and works on:
-- Desktop computers
-- Tablets
-- Mobile phones
 
 ## Customization
 
-**Happy Studying!** 🎓
+**Happy Studying!** 
 
 This app is designed to make IB Computer Science learning engaging and effective. Use it regularly to reinforce your understanding of key concepts and prepare for your exams.
+
 
 
